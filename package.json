@@ -1,0 +1,25 @@
+{
+  "name": "chat-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-loading-skeleton": "^3.3.1",
+    "react-scripts": "0.9.5",
+    "sass": "^1.64.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "lint:check": "eslint 'src/**/*.js'",
+    "lint:fix": "eslint 'src/**/*.js' --fix",
+    "prettier:check": "prettier --check 'src/**/*.{js,jsx,json}'",
+    "prettier:fix": "prettier --write 'src/**/*.{js,jsx,json}'",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "eslint": "^3.16.1"
+  }
+}
